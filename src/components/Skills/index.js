@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 import {skills} from "../../data/constants";
-// import { Container } from '@mui/material';
-import { Title } from '@mui/icons-material';
 
 const Containers = styled.div`
 display: flex;

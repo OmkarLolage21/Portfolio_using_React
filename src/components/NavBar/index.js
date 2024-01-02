@@ -1,4 +1,3 @@
-import { GitHub, OpenInBrowser } from '@mui/icons-material';
 import {Link as LinkR} from 'react-router-dom';
 import React from 'react';
 import styled from 'styled-components';
@@ -208,7 +207,7 @@ export const Navbar = () => {
           color:"white",
           marginBottom:"20",
           cursor:"pointer",                 
-        }}>
+        }} href="#about">
           <DiAtom size="2rem"/><Span>Portfolio</Span>
         </a>
       </NavLogo>
