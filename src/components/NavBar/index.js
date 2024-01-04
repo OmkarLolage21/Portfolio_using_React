@@ -150,6 +150,7 @@ height:70%;
 :hover{
   background-color:${({theme})=>theme.hover};
   color:${({theme})=>theme.white};
+  border:1.8px solid rgb(249, 235, 12)};
   text-decoraton:none
 }
 @media screen and (max-width:1014px){
