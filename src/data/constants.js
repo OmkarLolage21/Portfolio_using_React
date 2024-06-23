@@ -10,7 +10,7 @@ export const Bio = {
       "I am a skilled developer and a curious learner based in Pune, India. 🚀 I have a passion for creating beautiful and interactive applications with modern technologies and frameworks. In addition to web development, I have a strong interest and knowledge in Flutter, Cybersecurity, and Java. \n Currently, I'm a student at VIT College in Pune, India 🎓, where I continue to learn and grow in the world of technology.If you have any cool projects or ideas that you want to collaborate on, please feel free to contact me! 🤝 Let's code and innovate together! ",
     github: "https://github.com/omkarlolage21",
     resume:
-      "#",
+      "https://drive.google.com/file/d/1qVoe2zlg7L6QvB9UrSt4Ezvt0yw958TF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/omkar-lolage-2135vo",
     insta: "https://www.instagram.com/omkar.lolage21",
     mail: "https://mailto:lolageomkar5@gmail.com"
@@ -177,7 +177,7 @@ export const Bio = {
       img: "https://avatars.githubusercontent.com/u/72554182?s=200&v=4",
       role: "App Developer",
       company: "CSI, VIT Pune",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - June 2024",
       desc: "Working on the mobile app development projects of the club as a technical member",
       skills: [
         "Flutter",
