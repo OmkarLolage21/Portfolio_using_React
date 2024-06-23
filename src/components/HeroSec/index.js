@@ -210,7 +210,7 @@ const HeroSec = () => {
         <MainInnerContainer>
           <MainLeftContainer>
             <Titles>Hello, I am <br/> {Bio.name} </Titles>
-            <h2>Finalist @Barclays Hack-O-Hire'24</h2>
+            <h2 style={color= `${({ theme }) => theme.text_primary}`}>Finalist @Barclays Hack-O-Hire'24</h2>
             <TextLoop>
               I am a
               <Span>
