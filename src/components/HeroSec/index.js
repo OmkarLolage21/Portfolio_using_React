@@ -199,6 +199,22 @@ border: 2px solid
   max-height: 280px;
 }
 `;
+const SubHead = styled.div`
+font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 27px;
+  margin-top: 15px;
+  color: #00aeef;
+
+  @media (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 16px;
+    line-height: 32px;
+  }
+`;
 
 const HeroSec = () => {
   return (
@@ -210,10 +226,10 @@ const HeroSec = () => {
         <MainInnerContainer>
           <MainLeftContainer>
             <Titles>Hello, I am <br/> {Bio.name} </Titles>
-            <h2 style={color= `${({ theme }) => theme.text_primary}`}>Finalist @Barclays Hack-O-Hire'24</h2>
-            <TextLoop>
+            <SubHead>Finalist @Barclays Hack-O-Hire'24</SubHead>
+            <TextLoop >
               I am a
-              <Span>
+              <Span style={{color: "#00aeef"}}>
                 <Typewriter options={
                   {
                     strings:Bio.roles,
