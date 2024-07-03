@@ -36,8 +36,8 @@ This portfolio project is designed to highlight my professional journey, skills,
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-project.git
-   cd portfolio-project
+   git clone https://github.com/OmkarLolage21/Portfolio_using_React.git
+   cd Portfolio_using_React
    ```
 
 2. Install the dependencies:
