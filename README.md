@@ -1,5 +1,3 @@
-Here's a complete and professional README for your portfolio project using React:
-
 ---
 
 # Portfolio Project
