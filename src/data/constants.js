@@ -31,7 +31,7 @@ export const Bio = {
             "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
         },
         {
-          name: "React",
+          name: "ReactJS",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
@@ -61,6 +61,11 @@ export const Bio = {
       title: "Backend",
       skills: [
         {
+          name: "Spring",
+          image:
+            "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        },
+        {
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
         },
@@ -70,18 +75,19 @@ export const Bio = {
             "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
         },
         {
-          name: "Python",
+          name: "Google Cloud Platform (GCP)",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+            "",
         },
+      ],
+    },
+    {
+      title: "Databases",
+      skills: [
         {
           name: "MySQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-          name: "Postgresql",
-          image: "https://www.postgresql.org/media/img/about/press/elephant.png",
         },
         {
           name: "MongoDB",
@@ -92,31 +98,51 @@ export const Bio = {
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
         },
+        {
+          name: "Cassandra",
+          image:
+            "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        },
+        {
+          name: "Astra DB",
+          image:
+            "",
+        },
       ],
     },
     {
-      title: "Android",
+      title: "Programming Languages",
       skills: [
+        {
+          name: "C",
+          image:
+            "",
+        },
+        {
+          name: "C++",
+          image:
+            "",
+        },
         {
           name: "Java",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
         {
-          name: "Android Studio",
+          name: "Python",
           image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
-        {
-          name: "Spring",
-          image:
-            "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
       ],
     },
     {
       title: "Others",
       skills: [
+        {
+          name: "Google Apps script",
+          image:
+            "",
+        },
         {
           name: "Git",
           image:
@@ -131,11 +157,6 @@ export const Bio = {
           name: "Docker",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
         {
           name: "Postman",
@@ -267,5 +288,6 @@ export const Bio = {
   export const TimeLineData = [
     { year: 2020, text: "Completed SSC" },
     { year: 2022,text: "Completed HSC" },
-    { year: 2023,text: "Completed FY with some projects and first semester of SY being a memeber of GDSC,VITP" },
+    { year: 2023,text: "Completed FY with some projects" },
+    {year: 2024, text: "Completed SY with solid skills and DSA. CSI'23 tenure completed."},
   ];
